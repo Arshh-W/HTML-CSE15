@@ -1,0 +1,26 @@
+body {
+    background-color: aqua;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px dashed black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    line-height: 0;
+    padding-left: 10;
+    padding-right: 10;
+}
+
+.image-container {
+    display: block;
+}
